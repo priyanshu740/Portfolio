@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+    body{
+        @apply bg-[#182662]
+    }
     .nav-link{
         @apply relative cursor-pointer text-[18px] font-semibold md:block after:block after:h-[3px] after:bg-yellow-300 after:scale-x-0
         after:hover:scale-x-100 after:transition after:origin-center 

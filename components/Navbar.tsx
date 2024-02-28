@@ -20,7 +20,6 @@ const Navbar = () => {
                 </h1>
                 <ul className={`md:flex items-center space-x-4 ${showMenu ? 'flex flex-col bars-menu' : 'hidden md:flex'}`}>
                     <li className='nav-link'>Home</li>
-                    <li className='nav-link'>Services</li>
                     <li className='nav-link'>About</li>
                     <li className='nav-link'>Project</li>
                     <li className='nav-link'>Blog</li>
