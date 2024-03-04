@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    body{
+        @apply bg-[#182662]
+    }
+    .nav-link{
+        @apply relative cursor-pointer text-[18px] font-semibold md:block after:block after:h-[3px] after:bg-yellow-300 after:scale-x-0
+        after:hover:scale-x-100 after:transition after:origin-center 
+    }
+
+    .nav-link-mobile{
+        @apply relative cursor-pointer text-[18px] font-semibold md:block after:block after:h-[3px] after:bg-yellow-300 after:scale-x-0
+        after:hover:scale-x-100 after:transition after:origin-center flex flex-col justify-between
+    }
+
+    .bars-menu{
+        @apply absolute top-0 right-0 bottom-0 w-[100vw] h-[100vh] flex flex-col justify-center align-middle bg-black  after:bg-yellow-300 after:scale-x-0
+        after:hover:scale-x-100 after:transition after:origin-center
+    }
+}
